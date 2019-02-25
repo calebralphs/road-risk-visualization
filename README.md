@@ -1,9 +1,38 @@
 Final Project - Interactive Data Visualization  
 ===
 
+## Link
 https://calebralphs.github.io/final/src/index.html
 
+## Data Sets
+- Click [here](https://data.cityofnewyork.us/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95) for the accident data used. You can see that in the Jupyter Notebook that this file was renamed to 'NYC_Motor_Vehicle_Collisions.csv' and placed in a directory up one level and into another '../data/[filename]'
+
+- Click [here](https://data.cityofnewyork.us/City-Government/NYC-Street-Centerline-CSCL-/exjm-f27b/data) for the street data used. You can see that in the Jupyter Notebook that this file was renamed to 'NYC_Streets.csv' and placed in the same directory specified above.
+
+- Click [here](https://github.com/fedhere/PUI2015_EC/blob/master/mam1612_EC/nyc-zip-code-tabulation-areas-polygons.geojson) for the zip code geospatial data used. You can see that in the Jupyter Notebook that the file was saved in '.geojson' format, renamed as 'NYC_Zip_Polygons.geojson', and placed in the same directory specified above.
+
+## Library Dependencies for Jupyter
+
+Open Anaconda Prompt and run 'conda install [library name]' for the following library names (in this order):
+
+1. pandas
+2. numpy
+3. plotly
+4. json
+5. matplotlib
+5. shapely
+6. fiona
+7. six
+8. pyproj
+9. geopandas
+10. pysal
+
+NOTE: the 'conda install [library name]' may throw an error. In that case, try 'pip install [library name]. There also may be additional
+library dependencies which one can look up.
+
+
 ===
+
 The key learning experience of this course is the final project. 
 You will design a web site and interactive visualizations that answer questions you have or provide an exploratory interface to some topic of your own choosing. 
 You will acquire the data, design your visualizations, implement them, and critically evaluate the results. 
