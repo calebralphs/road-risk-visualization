@@ -1,0 +1,32 @@
+html { height: 100% }
+body { height: 100%; margin: 0; padding: 0; overflow: hidden; }
+#map { height: 100% }
+
+#info-box {
+background-color: white;
+border: 1px solid black;
+bottom: 30px;
+height: 20px;
+padding: 10px;
+position: absolute;
+left: 30px;
+}
+#floating-panel {
+position: absolute;
+top: 30px;
+left: 30px;
+z-index: 5;
+background-color: white;
+padding: 5px;
+border: 1px solid black;
+text-align: right;
+padding: 10px;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+}
+
+#misc {
+   background: white;
+   color: black;
+}
