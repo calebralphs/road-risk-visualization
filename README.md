@@ -30,7 +30,7 @@ Open Anaconda Prompt and run 'conda install [library name]' for the following li
 NOTE: the 'conda install [library name]' may throw an error. In that case, try 'pip install [library name]. There also may be additional
 library dependencies which one can look up.
 
-
+Origial README
 ===
 
 The key learning experience of this course is the final project. 
