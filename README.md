@@ -4,7 +4,7 @@ Final Project - Interactive Data Visualization
 ## Link
 https://calebralphs.github.io/final/src/index.html
 
-Note: The Google Maps API is glitchy, and the API call will throw errors, saying that the API Key in use is outdated and has been replaced. The viewer needs to refresh the page until the Map shows up (sometimes it takes a couple dozen times). 
+Note: the Google Maps API is glitchy, and the API call will throw errors, saying that the API Key in use is outdated and has been replaced. The viewer needs to refresh the page until the Map shows up (sometimes it takes a couple dozen times). 
 
 ## Data Sets
 - Click [here](https://data.cityofnewyork.us/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95) for the accident data used. You can see that in the Jupyter Notebook that this file was renamed to 'NYC_Motor_Vehicle_Collisions.csv' and placed in a directory up one level and into another '../data/[filename]'
@@ -15,7 +15,7 @@ Note: The Google Maps API is glitchy, and the API call will throw errors, saying
 
 ## Library Dependencies for Jupyter
 
-Open Anaconda Prompt and run 'conda install [library name]' for the following library names (in this order):
+Open your terminal and run '[conda/pip] install [library name]' for the following library names (in this order):
 
 1. pandas
 2. numpy
