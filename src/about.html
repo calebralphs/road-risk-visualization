@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1.0" />
+        <title>About</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id = "return">
+            <div>
+                <p><a href = "index.html">return</a></p>
+            </div> 
+        </div>
+        <div id = "summary">
+            <h1><p>About</p></h1>
+            <h3><p>Summary</p></h3>
+            <p>
+            This overlayed choropleth map is a model of the risk of accidents in NYC. Each polygon on the <br/>
+            map is representative of zip code boundary. The coloring of each region is representative of the <br/>
+            accident density for the associated zip code. The accident density is a metric of the number of <br/>
+            accidents per mile of roadway in the zipcode. That accident density score for each zip code is then <br/>
+            normalized on a scale of 0 to 100. You can see that the darkest red region, with an accident density <br/>
+            score of 100, is located in Manhatten, the area of NYC with the most traffic. You can also see that <br/>
+            zip code that is the lightest color, a transparent white color, is located on the outskirts of <br/>
+            Island. <br/>
+            You can find in the top right part of the screen, a information box, which allows the user to chose <br/>
+            a start and end location to route a drive. Once selected, the fastest route between the two locations <br/>
+            is overlayed on top of the map. Once the user selects the start and end locations, metrics about the <br/>
+            trip are displayed in the three other text boxes, located within the same information box. The metrics <br/>
+            are as follows: score, represents the aggregate risk associated with the trip (i.e a 1 mile trip through <br/>
+            a zipcode with score 50 would equal a 2 mile trip through a zipcode with score 25); distance, the length <br/>
+            of the trip from start to end; risk level, the risk level bracket that the trip falls into, calculated <br/>
+            by dividing the aggregate score by the route distance. <br/>
+            On the bottom right part of the screen, you can find a information box which changes as you hover your <br/>
+            cursor over each zipcode region. The information displayed in the box is the zipcodes actual code (i.e <br/>
+            01609) and the total number of reported accidents in that zipcode for the year of 2017. <br/>
+            Additionally, since this visualization was built using Google's Maps API, the user can use the built in <br/>
+            functionality of google maps, like toggling between the street level map and the satellite view or toggling <br/>
+            between showing the labels and the terrain for the map.
+            </p>
+            <h3><p>Motivation</p></h3>
+            <p>
+            The visualization has potential to help many different agents. It could be helpful for city planners to <br/>
+            understand how to better mitigate the risk of accidents with deiciding which zipcodes need more risk <br/>
+            mitigation. Inusrance companies could also use this tool to analyze the trips of their insured drivers <br/>
+            to better understand the risk they are assuming when the driver gets behind the wheel.
+            </p>
+            <h3><p>Screen Cast</p></h3>
+            <iframe width="420" height="315"
+            src="https://www.youtube.com/embed/tgbNymZ7vqY">
+            </iframe>
+        </div>
+    </body>
+
+
+</html>
