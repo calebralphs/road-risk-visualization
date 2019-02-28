@@ -14,7 +14,7 @@ body { height: 100%; margin: 0; padding: 0; overflow: scroll; }
 
 #about {
     position: absolute;
-    bottom: 10px;
+    bottom: 50px;
     left: 30px;
 }
 #return {
