@@ -3,8 +3,10 @@ Final Project - Interactive Data Visualization
 
 Authors: Eric Peterson & Caleb Ralphs
 
-## Link
-https://calebralphs.github.io/final/src/index.html
+## Links
+Webpage: https://calebralphs.github.io/final/src/index.html
+
+Video: https://youtu.be/uqVozlKWarQ
 
 Note: the Google Maps API is glitchy, and the API call will throw errors, saying that the API Key in use is outdated and has been replaced. The viewer needs to refresh the page until the Map shows up (sometimes it takes a couple dozen times). 
 
