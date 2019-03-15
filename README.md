@@ -1,7 +1,7 @@
 Final Project - Interactive Data Visualization  
 ===
 
-Authors: Eric Peterson & Caleb Ralphs
+Authors: Caleb Ralphs
 
 ## Links
 Webpage: https://calebralphs.github.io/road-risk-visualization/src/index.html
